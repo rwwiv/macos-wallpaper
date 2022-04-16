@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
 	name: "Wallpaper",
 	platforms: [
-		.macOS(.v10_12)
+		.macOS(.v12) // TODO: determine minimal version that support changes
 	],
 	products: [
 		.executable(
